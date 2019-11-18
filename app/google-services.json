@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "778376905036",
+    "firebase_url": "https://my-club-92fb1.firebaseio.com",
+    "project_id": "my-club-92fb1",
+    "storage_bucket": "my-club-92fb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778376905036:android:9c344bc9627c211f070fe9",
+        "android_client_info": {
+          "package_name": "com.example.adminmyclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778376905036-c5lnjfak3sjeiktmg2ho4e4klifqnsu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminmyclub",
+            "certificate_hash": "5a9303494261f63682a6154bc62d8a50e364c965"
+          }
+        },
+        {
+          "client_id": "778376905036-m9qpnalln1rb3ai21bj1qog8h26psk72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeo5bJC_ZmCR1pGB5YhKZ1qeSLZMNrP9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778376905036-m9qpnalln1rb3ai21bj1qog8h26psk72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778376905036:android:222b00db0a3bfd15070fe9",
+        "android_client_info": {
+          "package_name": "com.example.myclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778376905036-75ihokikt1mdt7580q37gpb1kvkrf8fd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myclub",
+            "certificate_hash": "eecb3c1cf1a2e870ef8cd985ec92f975168f68ba"
+          }
+        },
+        {
+          "client_id": "778376905036-9d2f3958uge8tc2hpq5hi109ss2bdf4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myclub",
+            "certificate_hash": "5a9303494261f63682a6154bc62d8a50e364c965"
+          }
+        },
+        {
+          "client_id": "778376905036-m9qpnalln1rb3ai21bj1qog8h26psk72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeo5bJC_ZmCR1pGB5YhKZ1qeSLZMNrP9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778376905036-m9qpnalln1rb3ai21bj1qog8h26psk72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
