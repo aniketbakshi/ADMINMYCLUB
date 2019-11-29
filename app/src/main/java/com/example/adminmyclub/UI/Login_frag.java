@@ -102,14 +102,15 @@ public class Login_frag extends Fragment implements UserPassInterface {
             LoginEvent event = new LoginEvent(this);
             UserPassBeans beans = new UserPassBeans(getEmailId, getPassword);
             event.loginWithEmail(beans, view);
-            Intent intent = new Intent(this.getContext(), AdminMain.class);
-            startActivity(intent);
         }
 
     }
 
     @Override
-    public void onConnectionResult(boolean isAdmin) {
+    public void onConnectionResult(String club) {
         Toast.makeText(this.getContext(), "Login success", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this.getContext(), AdminMain.class);
+        intent.putExtra("club", club);
+        startActivity(intent);
     }
 }

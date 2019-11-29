@@ -7,15 +7,16 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.adminmyclub.Beans.NotificationBeans;
 import com.example.adminmyclub.R;
 
 import java.util.ArrayList;
 
 public class CustomAdapter extends RecyclerView.Adapter<ClubEvents> {
 
-    private ArrayList<String> list;
+    private ArrayList<NotificationBeans> list;
 
-    public CustomAdapter(ArrayList<String> list) {
+    public CustomAdapter(ArrayList<NotificationBeans> list) {
         this.list = list;
     }
 
@@ -28,7 +29,8 @@ public class CustomAdapter extends RecyclerView.Adapter<ClubEvents> {
 
     @Override
     public void onBindViewHolder(@NonNull ClubEvents holder, int position) {
-        holder.subtitle.setText("Sample text " + position + " " + list.get(position));
+        holder.subtitle.setText(list.get(position).getSubtitle());
+        holder.title.setText(list.get(position).getTitle());
     }
 
     @Override
